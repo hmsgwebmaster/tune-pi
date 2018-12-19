@@ -1,0 +1,12 @@
+{
+	"player": {
+		"file" : "video/test.mp4",
+		"repeat" : "1"
+	},
+	"api": {
+		"endpoint": "http://url/wp-json" ,
+		"username": "admin" ,
+		"password": "password" ,
+		"postID": "7"
+	}
+}
