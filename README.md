@@ -1,4 +1,4 @@
-# rctm-pi
+# Tune Pi
 Real-time Captioning for Time-based Media project
 
 This repo contains the app that runs on the Raspberry Pis
