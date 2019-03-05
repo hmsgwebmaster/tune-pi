@@ -4,9 +4,9 @@
 		"repeat" : "1"
 	},
 	"api": {
-		"endpoint": "http://url/wp-json" ,
+		"hostname": "",
+		"endpoint": "" ,
 		"username": "admin" ,
-		"password": "password" ,
-		"postID": "7"
+		"password": "password"
 	}
 }
