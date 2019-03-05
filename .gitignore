@@ -1,8 +1,0 @@
-config.json
-config2.json
-config3.json
-config*.json
-playvideo-wp.js
-/misc
-/node_modules
-/video
