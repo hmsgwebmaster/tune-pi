@@ -10,7 +10,7 @@ let id = config.api.username + ':' + config.api.password;
 const options = {
 	hostname: config.api.hostname,
 	port: 80,
-	path: config.api.path,
+	path: config.api.endpoint,
 	method: 'PATCH',
 	headers: {
 		'Accept': 'application/json',

@@ -1,6 +1,6 @@
 const http = require('http');
 const querystring = require('querystring');
-const config = require('./config3.json');
+const config = require('./config.json');
 const Gpio = require('onoff').Gpio;
 const Bs = new Gpio( 4 , 'in' , 'falling');
 
@@ -9,7 +9,7 @@ let id = config.api.username + ':' + config.api.password;
 const options = {
 	hostname: config.api.hostname,
 	port: 80,
-	path: config.api.path,
+	path: config.api.endpoint,
 	method: 'PATCH',
 	headers: {
 		'Accept': 'application/json',
@@ -29,7 +29,7 @@ const wpAPIupdate = () => {
 
 	let req = http.request(options);
 
-	/* req.on('response' , (res) =>{
+	req.on('response' , (res) =>{
 		res.setEncoding('utf8');
 
 		console.log(`STATUS: ${res.statusCode}`);
@@ -46,7 +46,7 @@ const wpAPIupdate = () => {
 
 	req.on('error', (e) => {
   		console.error(`problem with request: ${e.message}`);
-	}); */
+	});
 
 	req.write(patchData);
 	req.end();
