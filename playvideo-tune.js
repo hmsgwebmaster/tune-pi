@@ -1,7 +1,7 @@
 const omx = require('omxctrl');
 const http = require('http');
 const querystring = require('querystring');
-const config = require('./config3.json');
+const config = require('./config.json');
 
 let i = 0;
 
