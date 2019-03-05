@@ -1,7 +1,6 @@
 {
 	"player": {
-		"file" : "video/test.mp4",
-		"repeat" : "1"
+		"file" : "video/test.mp4"
 	},
 	"api": {
 		"hostname": "",
