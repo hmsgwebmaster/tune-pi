@@ -1,0 +1,24 @@
+{
+  "name": "tune-pi",
+  "version": "0.0.0",
+  "description": "Real time captioning for Time-base Media. Raspberry Pi app to connect to Tune server.",
+  "main": "tune-pi.js",
+  "dependencies": {
+    "omxctrl": "^0.1.2",
+    "onoff": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmsgwebmaster/tune-pi.git"
+  },
+  "author": "Jacob Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmsgwebmaster/tune-pi/issues"
+  },
+  "homepage": "https://github.com/hmsgwebmaster/tune-pi#readme"
+}
