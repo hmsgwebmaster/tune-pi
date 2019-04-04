@@ -1,7 +1,7 @@
 # Tune Pi
 Real-time Captioning for Time-based Media
 
-Raspberry Pi nodejs apps connect to the Tune server (https://github.com/ericpugh/tune) to sync videos playing on physical devices with transcripts viewed through a web browser.
+Raspberry Pi nodejs apps that connect to the Tune server (https://github.com/ericpugh/tune) to sync videos playing on devices with transcripts viewed through a web browser.
 
 - tune-pi.js connects to the Tune server, and uses OMXplayer on the Pi as the videoplayer
 - tune-bs.js connects to the Tune server, and uses BrightSigns as the videoplayer
@@ -11,7 +11,7 @@ Raspberry Pi nodejs apps connect to the Tune server (https://github.com/ericpugh
 Set up Raspberry Pis with Raspbian OS and install the following:
 - node
 - omxctrl (for tune-pi.js)
-- onoff (for une-bs.js)
+- onoff (for tune-bs.js)
 
 We tested using a Raspberry Pi 3B+ and BrightSign XD 1030.
 
